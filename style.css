@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif', serif;
+}
+.container {
+width: 100%;
+height: 100vh;
+background-image: url(images/background.jpeg);
+background-position: center;
+background-size: cover;
+padding-left: 8%;
+padding-right: 8%;
+box-sizing: border-box;
+}
+.navbar{
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li a{
+    text-decoration: none;
+    color:blueviolet;
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    height: 50%;
+    align-items: center;
+}
+.col{
+    flex-basis: 95%;
+}
+h1{
+    color: #fff;
+    font-size: 60px;
+}
+p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 25px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(images/redpill.png);
+}
+.card2{
+    background-image: url(images/bluepill.png);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 10px red;
+    text-align: center;
+    font-size: 15px;
+}
+h6{
+    color: #fff;
+    text-shadow: 0 0 10px blue;
+    text-align: center;
+    font-size: 15px;
+}
+h4{
+    color:#999;
+    font-size: 12px;
+    text-align: center;
+}
